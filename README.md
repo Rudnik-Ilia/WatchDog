@@ -4,7 +4,7 @@
  To use the program:
 
 - Download the repository and navigate to its directory.
-- Run the make file to compile the code and generate two executable files: "user" and "dog".
+- Run the "./compiler.sh" file to compile the code and generate two executable files: "user" and "dog".
 - Execute "./user" in the terminal to start the program. Colorful messages will be displayed.
 - To terminate the processes, press "Ctrl + C" or use the "ps a" command to find the process ID and kill it using "kill -9 <id>".
 - Killing the "user" process will trigger the watchdog ("dog") to revive it, and vice versa.
